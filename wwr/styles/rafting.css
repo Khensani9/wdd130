@@ -15,11 +15,7 @@
   --nav-hover-background-color: #2e2e2e;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -55,14 +51,13 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   text-align: center;
   padding: 50px;
-  border:105px solid rgba(0, 0, 0, 0);
+  border:105px solid rgba(3, 3, 3, 0.007);
   background-color: #00000000;
   color:#000000;
 }
 
 .hero img{
     position: absolute;
-    display: flex;
     width: 100%;
     height: auto;
 }
@@ -70,12 +65,12 @@ h1, h2, h3, h4, h5, h6 {
 .hero article img{
   position: relative;
   float: right;
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 .hero article p{
-  padding-bottom: 300px;
-  border:80px solid rgba(0, 0, 0, 0);
+  padding-bottom: 400px;
+  top: 50%;
   background-color: #00000000;
   color:#000000;
   max-width: fit-content;
