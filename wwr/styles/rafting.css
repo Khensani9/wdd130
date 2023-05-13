@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+
+:root{
+    --primary-color: #ad8122;
+  --secondary-color: #2e2e2e;
+  --accent-color: #580a00;
+  --accent2-color: #ffffff;
+
+  --heading-font: 'Open Sans', sans-serif;
+  --paragraph-font: 'Source Sans Pro', sans-serif;
+
+  --nav-background-color: #ad8122;
+  --nav-link-color: #580a00;
+  --nav-hover-link-color: #2e2e2e;
+  --nav-hover-background-color: #2e2e2e;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  nav {
+    background-color: none;
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+.hero article ,h1 {
+  position: relative;
+}
+
+.hero h1{
+  display: block;
+  text-align: center;
+  padding: 50px;
+  border:105px solid rgba(3, 3, 3, 0.007);
+  background-color: #00000000;
+  color:#000000;
+}
+
+.hero img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img{
+  position: relative;
+  float: right;
+  width: 250px;
+  height: auto;
+}
+.hero article p{
+  padding-bottom: 400px;
+  top: 50%;
+  background-color: #00000000;
+  color:#000000;
+  max-width: fit-content;
+}
+
+section img{
+  width: 50%;
+  height: auto;
+}
+
+.sociallinks img{
+  width: 50px;
+  height: auto;
+}
+
+section h2{
+  padding-top: 20px;
+}
