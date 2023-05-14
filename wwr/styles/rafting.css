@@ -15,8 +15,6 @@
   --nav-hover-background-color: #2e2e2e;
 }
 
-
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -26,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: none;
     font-size: 1.2rem;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-column: 2/3;
+    float: right;
   }
   
   nav a {
@@ -54,6 +56,11 @@ h1, h2, h3, h4, h5, h6 {
   border:105px solid rgba(3, 3, 3, 0.007);
   background-color: #00000000;
   color:#000000;
+}
+
+header {
+  display: grid;
+  justify-content: space-around;
 }
 
 .hero img{
@@ -88,4 +95,13 @@ section img{
 
 section h2{
   padding-top: 20px;
+}
+
+header img{
+  grid-column: 1/2;
+}
+
+figure {
+  display: flex;
+  align-items: center;
 }
